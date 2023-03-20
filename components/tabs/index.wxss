@@ -1,0 +1,20 @@
+
+
+.tab-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  height: 106rpx;
+}
+
+.tab-bar-item {
+  box-sizing: border-box;
+  height: 106rpx;
+  line-height: 106rpx;
+}
+
+.tab-active {
+  color: var(--themeColor);
+  border-bottom: 4rpx solid currentColor;
+}

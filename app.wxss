@@ -1,0 +1,303 @@
+/**app.wxss**/
+
+page {
+  font-family: PingFangSC-Medium, PingFang SC;
+  /* 定义主题颜色 */
+  --themeColor: #007AFF;
+  /* --themeColor: red; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-bottom: 150rpx;
+}
+
+/* 底部提交按钮 */
+.footer {
+  position: fixed;
+  width: 90%;
+  margin: 0 auto;
+  left: 0px;
+  bottom: 20rpx;
+  right: 0px;
+}
+
+.van-field__input {
+  text-align: start !important;
+}
+
+.mark {
+  padding: 20rpx 30rpx;
+  font-size: 26rpx;
+  color: #007AFF;
+  line-height: 37rpx;
+  background-color: #ffe2e8;
+}
+
+.record-wrap {
+  margin: 0 30rpx 30rpx;
+}
+
+.tar {
+  text-align: right;
+}
+
+.record-item {
+  border-radius: 16rpx;
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.record-item:last-child {
+  margin-bottom: 0rpx;
+}
+
+.record-item-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  padding-bottom: 10rpx;
+}
+
+.title-text {
+  width: 90%;
+  font-size: 32rpx;
+  color: #333;
+  line-height: 45rpx;
+  font-weight: 400;
+}
+
+.title-detail {
+  width: 10%;
+  font-size: 26rpx;
+  color: var(--themeColor);
+  line-height: 37rpx;
+}
+
+.container-item {
+  display: flex;
+  justify-content: space-between;
+  min-height: 64rpx;
+  line-height: 64rpx;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.container-item-label {
+  font-weight: 400;
+  color: #999999;
+  margin-right: 30rpx;
+  line-height: 42rpx;
+}
+
+.container-item-text {
+  color: #666;
+  font-weight: 500;
+}
+
+.record-title-wrap {
+  position: relative;
+  padding: 0 30rpx;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+
+.record-title-wrap .bgc {
+  position: absolute;
+  top: -40rpx;
+  right: -80rpx;
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.record-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 116rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+
+.hos-title,
+.change {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 99;
+}
+
+.change image {
+  width: 30rpx !important;
+  height: 30rpx !important;
+  margin-right: 20rpx !important;
+}
+
+.record-title image {
+  width: 56rpx;
+  height: 56rpx;
+  margin-right: 30rpx;
+}
+
+.record-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+  color: #666;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+
+.record-info .num {
+  color: #333;
+  margin-top: 12rpx;
+}
+
+.record-info text {
+  margin-right: 20rpx;
+}
+
+.record-info image {
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.hos-title {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 99;
+}
+
+/* 上下左右居中对齐 */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 两边对齐 */
+.flex-b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 特殊字体颜色 */
+.blue {
+  color: var(--themeColor) !important;
+}
+
+.red {
+  color: #F71B45;
+}
+
+.sheng {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card-info {
+  margin: 30rpx 30rpx 0;
+}
+
+.mt30 {
+  margin-top: 30rpx;
+}
+
+.submit-btn {
+  width: 690rpx;
+  height: 84rpx;
+  font-size: 36rpx;
+  line-height: 84rpx;
+  text-align: center;
+  color: #fff;
+  margin: 60rpx auto;
+  border-radius: 42rpx;
+  background-color: var(--themeColor);
+}
+
+.van-cell {
+  padding: 0 30rpx;
+  line-height: 96rpx;
+}
+
+.van-cell__title,
+.van-cell__value {
+  color: #333333;
+  font-size: 32rpx;
+}
+
+.van-field__input {
+  line-height: 96rpx;
+  color: #999;
+  height: 96rpx;
+}
+
+.van-field__label {
+  color: rgba(51, 51, 51, 1);
+}
+
+.pay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  padding: 30rpx;
+}
+
+.pay-btn {
+  height: 84rpx;
+  color: #fff;
+  font-weight: 400;
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 84rpx;
+  border-radius: 42rpx;
+  background-color: var(--themeColor);
+}
+
+.btn-normal {
+  width: 690rpx;
+  height: 84rpx;
+  color: #fff;
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 84rpx;
+  border-radius: 42rpx;
+  background-color: var(--themeColor);
+  margin: 80rpx auto 50rpx;
+}
+
+.btn-pay {
+  color: #fff;
+  font-size: 24rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding: 0rpx 20rpx;
+  margin-top: 10rpx;
+  background-color: var(--themeColor);
+  border-radius: 42rpx;
+}
+
+.bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  /* Chrome Safari */
+}

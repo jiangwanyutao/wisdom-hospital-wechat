@@ -1,0 +1,61 @@
+{
+    "setting": {
+        "compileHotReLoad": true,
+        "urlCheck": false
+    },
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "分享",
+                    "pathName": "pages/share_doctor/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/teamcheck_appointment/pay_result/index",
+                    "pathName": "pages/teamcheck_appointment/pay_result/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/hospital_list/index",
+                    "pathName": "pages/hospital_list/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "packageA/pages/accounting_search/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "1",
+                    "pathName": "packageA/pages/payment_other/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+    "libVersion": "2.24.5",
+    "projectname": "wisdom-hospital-wechat"
+}

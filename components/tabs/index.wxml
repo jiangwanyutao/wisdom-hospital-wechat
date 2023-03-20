@@ -1,0 +1,7 @@
+
+
+<view class="tab-bar">
+  <view class="tab-bar-item {{ tabMark === index ? 'tab-active' : ''}}" catchtap="tabClick" data-index="{{index}}"
+    wx:for="{{tabList}}" wx:key="index">{{item}}</view> 
+</view>
+
